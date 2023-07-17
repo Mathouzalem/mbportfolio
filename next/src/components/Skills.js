@@ -25,7 +25,7 @@ const Skills = () => {
         <Skill name="HTML" x="-25vw" y="2vw"/>
         <Skill name="CSS" x="-5vw" y="-10vw"/>
         <Skill name="Ruby" x="20vw" y="6vw"/>
-        <Skill name="Ruby on Rails" x="0vw" y="12vw"/>
+        <Skill name="Ruby on Rails" x="0vw" y="15vw"/>
         <Skill name="Figma" x="-20vw" y="-15vw"/>
         <Skill name="Javascript" x="15vw" y="-12vw"/>
         <Skill name="ReactJS" x="32vw" y="-5vw"/>
