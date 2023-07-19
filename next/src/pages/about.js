@@ -48,13 +48,13 @@ const about = () => {
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biographie</h2>
-              <p className='font-medium'>
+              <p className='font-medium text-justify'>
                 Moi c&apos;est Mathilde, j&apos;ai découvert le code lors de mes études, et j&apos;ai adoré ! Par la suite, j&apos;ai directement travaillé chez Auchan Retail dans le e-commerce, mais l&apos;idée de &quot;coder&quot; me rester en tête et je voulais en connaître davantage.
               </p>
-              <p className='font-medium my-4'>
+              <p className='font-medium my-4 text-justify'>
                J&apos;ai donc choisi de stopper mon aventure chez Auchan et de faire la formation du Wagon en Développeur Web. J&apos;ai acquis des connaissances approfondies et une expérience dans diverses technologies web. Ma formation m&apos;a permis d&apos;acquérir une base solide en matière de principes et de bonnes pratiques de développement d&apos;application.
               </p>
-              <p className='font-medium'>
+              <p className='font-medium text-justify'>
                J&apos;ai le souci du détail, je suis fiable et je suis passionnée par la création d&apos;interfaces utilisateur élégantes et intuitives. Alors, si vous cherchez une développeuse web dévouée et compétente pour donner vie à vos idées, je suis là pour vous aider !
               </p>
             </div>

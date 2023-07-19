@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="Bienvenue sur mon Portfolio !" className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text:6xl md:!text-5xl sm:!text:3xl'/>
-              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
+              <p className='text-justify my-4 text-base font-medium md:text-sm sm:text-xs'>
                 Moi c&apos;est Mathilde, j&apos;ai 26 ans et je suis développeuse web Fullstack Ruby on Rails. Ce site est entièrement créé en ReactJS et NextJS car je souhaite les apprendre !
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>

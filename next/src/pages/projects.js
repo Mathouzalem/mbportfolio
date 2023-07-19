@@ -20,7 +20,7 @@ const FeaturedProject = ({type, title, summary, img, link, github }) => {
         <Link href={link} target="_blank" className='hover:underline underline-offset-2 dark:hover:text-light'>
           <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
         </Link>
-        <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
+        <p className='my-2 font-medium text-dark dark:text-light text-justify'>{summary}</p>
         <div className='mt-2 flex items-center'>
           <Link href={github} target="_blank" className='w-10 dark:text-light'><GithubIcon /></Link>
           <Link href={link} target="_blank" className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'>Voir le projet</Link>
@@ -47,7 +47,7 @@ const projects = () => {
               title="Panima"
               img={project1}
               summary="Création d'un logiciel de gestion de stock autonome pour les magasins autonomes avec Ruby on Rails. Le logiciel peut passer du mode autonome au mode manuel en un clic. En mode autonome, il choisi les produits à retirer du stock et ceux à ajouter, il passe également les commandes."
-              link="https://youtu.be/ruIwOTi_3NY"
+              link="https://www.youtube.com/watch?v=woZ3szFr-_I&ab_channel=LeWagon"
               github="https://github.com/galmier27/Panima"
               type="Projet Phare"
               />
