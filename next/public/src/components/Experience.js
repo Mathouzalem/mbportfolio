@@ -39,7 +39,7 @@ const Experience = () => {
         style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
-          position="Teacher Assisant" company="LeWagon"
+          position="Teacher Assistant" company="LeWagon"
           companyLink="https://www.lewagon.com/fr"
           time="Octobre 2023" address="Lille"
           work="Soutiens des étudiants dans leur apprentissage, explication de concepts complexes, déblocage lors des excercices et aide pendant leurs projets."/>
